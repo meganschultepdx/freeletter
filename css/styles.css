@@ -5,3 +5,7 @@
 .btn {
   border: solid 2px black;
 }
+
+#feelings {
+  display: none;
+}

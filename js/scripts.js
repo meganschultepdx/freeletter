@@ -8,4 +8,14 @@ $(document).ready(function() {
     event.preventDefault();
 
   });
+
+  $("#formTwo").submit(function(event){
+    var moodInput = $("input#mood").val();
+    $(".mood").text(moodInput.toUpperCase());
+
+    $("#feelings").show();
+
+    event.preventDefault();
+
+  });
 });
